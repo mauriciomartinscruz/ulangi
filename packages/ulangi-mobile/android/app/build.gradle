@@ -145,7 +145,8 @@ def jscFlavor = 'org.webkit:android-jsc:+'
  */
 def enableHermes = project.ext.react.get("enableHermes", false);
 
-def keyStorePassword = getKeystorePassword("minhloi","ulangi_keystore")
+// def keyStorePassword = getKeystorePassword("minhloi","ulangi_keystore")
+def keyStorePassword = "minhloiulangi_keystore"
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
